@@ -56,13 +56,14 @@ class UnitTest {
     }
 
 
-    @Test
+    /*@Test
     void setOfCycles(){
         int size=50;
         Permutation id=ArrayPermutation.identity(size);
         SetOfCyclesPatternAnalyzer socpa=new SetOfCyclesPatternAnalyzer();
-        socpa.computeSetOfCycles(id);
-        assertEquals(socpa.numberOfCycles(),size);
-        assertEquals(socpa.fixedPoints(),size);
-    }
+        //socpa.computeSetOfCycles(id);
+        //assertEquals(socpa.numberOfCycles(),size);
+        //assertEquals(socpa.fixedPoints(),size);
+    }*/
+
 }

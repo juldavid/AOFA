@@ -1,9 +1,23 @@
 package aofa.algorithm.sort;
 
+/**
+ * Abstract class which implements the Sortable interface.
+ * Allows to compute how much comparing and swapping are made by an algorithm.
+ * @param <T> is the type of value we want to sort.
+ */
 public abstract class AbstractSortable<T> implements Sortable<T>{
     protected int size;
     private int cmpCounter;
     private int swapCounter;
+
+    public int getSwapCounter() {
+        return swapCounter;
+    }
+
+
+    public int getCmpCounter() {
+        return cmpCounter;
+    }
 
     protected AbstractSortable(int pSize){
         size=pSize;
